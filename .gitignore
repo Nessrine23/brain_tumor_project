@@ -1,0 +1,17 @@
+# Environnement virtuel
+venv/
+env/
+
+# Fichiers de données (Dataset Kaggle)
+data/
+
+# Fichiers de modèles (.h5) - TROP LOURDS POUR GITHUB
+models/*.h5
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets et variables d'environnement
+.env
